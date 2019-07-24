@@ -3,6 +3,7 @@ from flask_compress import Compress
 import os
 import youtube_dl
 from multiprocessing.pool import ThreadPool
+import ssl
 
 compress = Compress()
 app = Flask(__name__)
@@ -57,4 +58,6 @@ def download_page():
 
 if __name__ == '__main__':
     app.debug = True
-    app.run(host="0.0.0.0", threaded=True, port=80)
+    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS)
+    ssl_context.load_cert_chain(certfile='certfile.crt', keyfile='private.key', password='password')
+    app.run(host="0.0.0.0", threaded=True, port=443, ssl_context=ssl_context)
