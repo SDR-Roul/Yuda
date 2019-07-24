@@ -15,3 +15,4 @@ echo.
 echo install finished
 echo now you can run "python app.py"
 echo or to run with ssl, "python app_ssl.py"
+@echo on
