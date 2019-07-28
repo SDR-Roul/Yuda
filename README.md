@@ -7,7 +7,6 @@ Yuda - BGM
 
 Yuda ssl - Roul_
 
------
 
 ## 설치
 ### Windows
@@ -63,7 +62,6 @@ cert파일은 certfile.crt으로, key파일은 private.key으로 이름을 바�
 #### Linux
 > sudo python app_ssl.py
 
------
 
 ## 라이센스 및 링크
 Master Repository: BGM (khk49121@gmail.com), (Github)[https://github.com/khk4912]
