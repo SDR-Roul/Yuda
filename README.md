@@ -5,7 +5,7 @@ app.py 와 app_ssl.py 중복해서 실행하셔도 작동합니다
 
 Yuda - BGM
 
-Yuda ssl - Roul_
+Yuda ssl - TDB
 
 
 ## 설치
