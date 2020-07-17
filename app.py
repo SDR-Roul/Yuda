@@ -75,7 +75,6 @@ def download_page():
 def subs():
     return render_template("subs.html")
 
-
 if __name__ == "__main__":
     app.debug = True
     app.run(host="0.0.0.0", threaded=True, port=80)
